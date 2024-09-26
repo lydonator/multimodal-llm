@@ -25,13 +25,13 @@ The project consists of the following main components:
 
 1. Clone the repository:
    ```
-   git clone [repository_url]
-   cd [repository_name]
+   git clone https://github.com/lydonator/multimodal-llm.git
+   cd multimodal-llm
    ```
 
 2. Install the required dependencies:
    ```
-   pip install torch transformers wandb soundfile tqdm
+   pip install -r requirements.txt
    ```
 
 3. Prepare your data:
