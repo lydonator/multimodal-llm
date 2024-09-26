@@ -1,4 +1,6 @@
-# Multimodal GPT-2 for Audio-Text Processing (WARNING: Experimental Project - No confirmation of working multimodal model as yet)
+# Multimodal GPT-2 for Audio-Text Processing 
+(WARNING: Experimental Project - No confirmation of working multimodal model as yet)
+
 
 This project implements a multimodal GPT-2 model that combines audio embeddings with text input for enhanced language modeling. The model is designed to process audio files alongside their transcriptions, potentially improving the quality of language generation tasks.
 The goal of this project was to understand the underlying techniques that expanded the capability of text only models to other modes of language input, in this case, Audio. Upon verifying any successes, perhaps these techniques and others could be used to expand the 
