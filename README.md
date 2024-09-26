@@ -18,8 +18,8 @@ The project consists of the following main components:
 2. `train.py`: Contains the training loop and logic for the model.
 3. `dataset.py`: Implements the MultimodalDataset for handling audio embeddings and transcriptions.
 4. `generate_audio_embeddings.py`: Generates audio embeddings from WAV files using Wav2Vec2.
-5. `inference_test.py`: (Not provided, but assumed to exist for testing the trained model)
-6. `test.py`: (Not provided, but assumed to exist for unit tests)
+5. `inference_test.py`: Basic test script, amend as necessary
+
 
 ## Setup
 
