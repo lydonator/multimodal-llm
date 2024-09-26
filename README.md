@@ -4,7 +4,7 @@ This project implements a multimodal GPT-2 model that combines audio embeddings 
 
 ## Project Structure
 
-The project consists of the following main components: 
+The project consists of the following main components:  
 
 1. `model.py`: Defines the MultimodalGPT2 model architecture.
 2. `train.py`: Contains the training loop and logic for the model.

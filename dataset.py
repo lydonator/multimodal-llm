@@ -42,7 +42,7 @@ class MultimodalDataset(Dataset):
         if not os.path.exists(file_path):
             logging.error(f"Audio embeddings file not found: {file_path}")
             raise FileNotFoundError(f"Audio embeddings file not found: {file_path}")
-        try: 
+        try:  
             embeddings = torch.load(file_path, map_location='cpu', weights_only=True)  # Load on CPU first
             if not isinstance(embeddings, dict):
                 logging.error(f"Audio embeddings file {file_path} is not a dictionary.")

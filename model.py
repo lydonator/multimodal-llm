@@ -68,4 +68,4 @@ class MultimodalGPT2(nn.Module):
         lm_logits = self.gpt2.lm_head(hidden_states)  # (batch_size, seq_len, vocab_size)
 
         return {'logits': lm_logits}
- 
+  
