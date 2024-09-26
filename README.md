@@ -41,7 +41,8 @@ The project consists of the following main components:
    - Place corresponding transcription files (TXT format) in another directory.
    - Ensure that the audio files and transcription files have matching names (e.g., `audio1.wav` and `audio1.txt`).
    - Audio datasets like TED-LIUM 3 contain SPH format audio files, which can be converted with convert_sph_to_wav.py.
-    NB: Depending on your VRAM availability, you may need to chunk your WAV files
+    
+     NB: Depending on your VRAM availability, you may need to chunk your WAV files
      and corresponding Text files (see chunk_transcript_files.py and chunk_audio_files.py script) and manage your batch and 
      gradient accumulation settings in train.py according to your environment. e.g. 8GB VRAM, Batch = 1 and GA = 16 should be fine.
      
