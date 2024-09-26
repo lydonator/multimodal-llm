@@ -3,8 +3,7 @@
 
 
 This project implements a multimodal GPT-2 model that combines audio embeddings with text input for enhanced language modeling.
-The goal of this project was to understand the underlying techniques that expanded the capability of text only models to other modes of language input, in this case, Audio. Upon verifying any successes, perhaps these techniques and others could be used to expand the 
-Modalities of other Open Source models like Llama 3 etc. The reason for starting with GPT2-Medium, was to allow for both faster training and the use of a single GPU (RTX 2060 Super 8GB). In the scripts' current form, it does indeed train fairly quickly on said hardware and seems to converge in a rather stable fashion. 
+The goal of this project was to understand the underlying techniques that expand the capabilities of text only models to other modes of language input, in this case, the addition of audio processing. Upon verifying any successes, perhaps these techniques and others could be used to expand the modalities of other Open Source models like Llama 3 etc. The reason for starting with GPT2-Medium, was to allow for both faster training and the use of a single GPU (RTX 2060 Super 8GB). In the scripts' current form, it does indeed train fairly quickly on said hardware and seems to converge in a rather stable fashion. 
 
 ![image](https://github.com/user-attachments/assets/07bd9008-221b-43f8-acc6-de9a99197706)
 
