@@ -34,7 +34,7 @@ def get_audio_embeddings(audio_path: str, processor: Wav2Vec2Processor, wav2vec_
 def load_test_cases(test_cases_file: str) -> List[Dict]:
     try:
         with open(test_cases_file, 'r') as f:
-            return json.load(f)
+            return json.load(f) 
     except Exception as e:
         logging.error(f"Error loading test cases from {test_cases_file}: {str(e)}")
         raise

@@ -1,0 +1,28 @@
+{
+  "os": "Windows-10-10.0.22621-SP0",
+  "python": "3.11.9",
+  "startedAt": "2024-09-25T01:50:04.342589Z",
+  "program": "c:\\Users\\LydoSr\\Desktop\\multimodal-llm\\train.py",
+  "codePath": "train.py",
+  "email": "mr.lydon@gmail.com",
+  "root": "C:\\Users\\LydoSr\\Desktop\\multimodal-llm",
+  "host": "Lydo-Comp",
+  "username": "LydoSr",
+  "executable": "C:\\Users\\LydoSr\\anaconda3\\envs\\multimod\\python.exe",
+  "codePathLocal": "train.py",
+  "cpu_count": 8,
+  "cpu_count_logical": 16,
+  "disk": {
+    "/": {
+      "total": "224290402304",
+      "used": "213424685056"
+    }
+  },
+  "memory": {
+    "total": "34305302528"
+  },
+  "cpu": {
+    "count": 8,
+    "countLogical": 16
+  }
+}
